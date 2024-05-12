@@ -1,0 +1,26 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.7.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "testFiles": "**/*.feature"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "latest"
+  }
+}
